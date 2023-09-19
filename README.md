@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# React Theme Control Higher Order Component (HOC)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dear students,
 
-## Available Scripts
+In this homework assignment, you will create a Higher Order Component (HOC) in React that controls the theme of all components wrapped within it. This HOC will enable the toggling between dark and light themes without requiring theme-specific code within individual components.
 
-In the project directory, you can run:
+## Task Instructions
 
-### `npm start`
+Please follow the steps below to complete the task:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Create the Theme Control HOC
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Begin by creating a new React Higher Order Component (HOC) called "ThemeControlHOC." This component will serve as the mechanism for managing and toggling the theme for all components wrapped within it.
 
-### `npm test`
+### 2. Theme State Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inside the "ThemeControlHOC," implement state management for the theme. You can use the React `useState` hook or any state management solution of your choice to control the current theme (e.g., dark or light).
 
-### `npm run build`
+### 3. Toggle Theme Functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a function within the HOC that allows toggling between the dark and light themes. When this function is called, it should update the theme state and trigger a re-render of all components wrapped within the HOC.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Wrap Components with the HOC
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Select a few components (e.g., header, footer, main content) that you want to apply the theme control to. Wrap these components with the "ThemeControlHOC" so that they inherit the theme management functionality.
 
-### `npm run eject`
+### 5. Implement Theme Styles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Define separate styles or CSS classes for the dark and light themes. Ensure that these styles are applied to the components based on the current theme state, which is managed by the HOC.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or need further assistance.
