@@ -11,3 +11,132 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --pink-color: #cc1e6c;
+  --navy-color: #123456;
+  --grey-color: #f3f3f3;
+  --white-color: #fefefe;
+    --purple-color: #a3268e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  outline: 0;
+  border: none;
+  background-color: var(--pink-color);
+  color: var(--grey-color);
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  z-index: 4;
+  gap: 1rem;
+}
+
+.floatImg {
+  font-size: 50rem;
+  position: absolute;
+  opacity: 15%;
+  z-index: 0;
+  top: 0;
+}
+
+/* Font Sizes */
+.fs-15 {
+  font-size: 1.5rem;
+}
+
+.fs-16 {
+  font-size: 1.6rem;
+}
+
+.fs-17 {
+  font-size: 1.7rem;
+}
+
+.fs-18 {
+  font-size: 1.8rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-22 {
+  font-size: 2.2rem;
+}
+
+.fs-24 {
+  font-size: 2.4rem;
+}
+
+.fs-26 {
+  font-size: 2.6rem;
+}
+
+/* Font Weights */
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-8 {
+  font-weight: 800;
+}
+
+.fw-9 {
+  font-weight: 900;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.flex-c {
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.p {
+  display: flex;
+  gap: 0.5rem;
+  z-index: 4;
+}

@@ -1,0 +1,20 @@
+.lightTheme {
+    background-color: var(--grey-color);
+    color: var(--navy-color);
+}
+
+.darkTheme {
+    color: var(--grey-color);
+    background-color: var(--navy-color);
+}
+
+nav{
+    width: 100vw;
+    padding: 1rem;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    background-color: var(--purple-color);
+    color: var(--grey-color);
+}
