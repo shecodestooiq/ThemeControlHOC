@@ -1,5 +1,10 @@
+import ThemeControlHOC from './components/ThemeControlHOC'
 function App() {
-  return <div>Theme Control HOC</div>;
+  return (
+    <>
+      <ThemeControlHOC />
+    </>
+  );
 }
 
 export default App;
